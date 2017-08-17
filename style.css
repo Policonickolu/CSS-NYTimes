@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+  color: #333;
+}
+
+#shell {
+  max-width: 1605px;
+  margin: 0 auto;
+  padding-top: 47px;
+
+  box-shadow: -1px 0 4px 0 #e2e2e2;
+  border-right: 1px solid #e2e2e2;
+  border-left: 1px solid #e2e2e2;
+
+  position: relative;
+
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  min-height: 47px;  
+  max-width: 1605px;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+#logo {
+  position: absolute;
+  top: 12px;
+  width: 100%;
+  margin-left: -30px;
+}
+
+#logo > div {
+  margin: 0 auto;
+  width: 185px;
+  height: 26px;
+}
+
+#news-list {
+  height: 83px;
+  border-bottom: 1px solid #e2e2e2;
+  background-color: #fff;
+  box-shadow: -1px 0 4px 0 #e2e2e2;
+  margin-bottom: 3px;
+}
+
+#page {
+
+}
+
+#main {
+  border-top: 1px solid black;
+
+  max-width: 1125px;
+  margin: 0 auto;
+}
+
+#article-title {
+  color: black;
+  margin-bottom: 20px;
+
+}
+
+#article-title .meta {
+  border-top: 1px solid #e2e2e2;
+  padding-top: 14px;
+}
+
+#picture {
+  margin-bottom: 45px;
+}
+
+#picture img {
+  width: 100%;
+}
+
+#picture .caption {
+  max-width: 615px;
+  color: #666;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 300;
+  font-style: normal;
+  font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
+}
+
+#picture .source {
+  color: #999;
+  font-size: 0.6875rem;
+  line-height: 16px;
+  line-height: 1rem;
+  font-weight: 400;
+}
+
+.section .content {
+  max-width: 705px;
+  font-size: 1.0625rem;
+  line-height: 1.625rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: georgia,"times new roman",times,serif;
+}
+
+.section .content p {
+  max-width: 570px;
+  margin: 0 0 17px 75px;
+}
+
+.section .content p strong {
+  line-height: 1.625rem;
+  font-size: 1.0625rem;
+}
